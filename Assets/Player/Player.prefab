@@ -118,7 +118,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4535299966446432885}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -149,8 +149,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322ea61e14cafa74f8dfb132a4a437a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  walkSpeed: 5
+  runSpeed: 9
   crouchSpeed: 2
+  jumpForce: 5
+  mouseSensitivity: 100
+  standingHeight: 2
+  crouchHeight: 1
 --- !u!1 &4835424852589185207
 GameObject:
   m_ObjectHideFlags: 0
